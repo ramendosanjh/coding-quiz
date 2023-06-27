@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="quiz-title">Coding Quiz Challenge</h1>
+    <button id="take-quiz-btn">Take Quiz</button>
+    <div id="question-container" style="display: none;">
+      <h2 id="question-title"></h2>
+      <ul id="answers-list"></ul>
+      <button id="submit-btn">Submit Answer</button>
+    </div>
+    <div id="timer-container">
+      <span id="timer"></span>
+    </div>
+    <div id="score-entry" style="display: none;">
+      <h2>Enter your initials to save your score:</h2>
+      <input type="text" id="email-input" placeholder="Initials">
+      <button id="save-score-btn">Save Score</button>
+    </div>
+    <div id="high-scores" style="display: none;">
+      <h2>High Scores:</h2>
+      <ul id="scores-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
